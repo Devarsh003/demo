@@ -43,7 +43,8 @@ if uploaded_file is not None:
     st.image(image,use_container_width =True)
 # st.image('image')
 # create a prompt which give information to LLM how to answer 
-prompt='''write a response based on input,'''
+prompt='''write a response based on input,this is the change
+,'''
 submit= st.button('submit')
 
 
